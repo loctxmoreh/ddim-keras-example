@@ -1,0 +1,15 @@
+name: ddim-tf
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.2
+  - cudnn=8.1.0
+  - pip
+  - pip:
+    - tensorflow==2.8.0
+    - tensorflow_datasets
+    - tensorflow_addons
+    - matplotlib
+    - scipy
