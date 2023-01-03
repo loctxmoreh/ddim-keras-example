@@ -1,0 +1,10 @@
+name: ddim-tf
+dependencies:
+  - python=3.8
+  - matplotlib
+  - scipy
+  - pip
+  - pip:
+    - tensorflow==2.9.0
+    - tensorflow_datasets
+    - tensorflow_addons
